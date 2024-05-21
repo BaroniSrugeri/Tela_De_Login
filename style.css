@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color:rgb(17, 65, 107);
+}
+.titulo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 60px;
+
+}
+label{
+    margin: 20px;
+    color: white;
+}
+input{
+    display: block;
+    width: 95%;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    padding: 15px;
+    border-bottom: 1px solid #e4e4e4;
+    margin: 15px;
+    font-size: 105%;
+    background-color: white;
+    color: black;
+}
+.body{
+    background-color: rgb(255, 255, 255);
+    padding: 80px;
+    margin-top: -60px;
+    text-align: center;
+    font-size: large;
+    color: rgb(255, 255, 255); 
+}
+.botao{
+    border-color: rgb(142, 215, 255);
+    font-size: large;
+    height: 50px;
+    width: 10%;
+    margin: 20px;
+    background-color: rgb(142, 197, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+    right: 50%;
+    margin-left: 46%;
+}
+.login{
+    text-decoration: none;
+    font-size: 120%;
+    margin: 20px;
+    color: white;
+}
+.senhaa{
+    text-decoration: none;
+    font-size: 120%;
+    color: white;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
